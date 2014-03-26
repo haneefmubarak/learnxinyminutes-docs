@@ -23,9 +23,12 @@ Multi-line comments look like this. They work in C89 as well.
 // Constants: #define <keyword>
 #define DAYS_IN_YEAR 365
 
-//enumeration constants are also ways to declare constants. 
+// enumeration constants are also ways to declare constants. 
 enum days {SUN = 1, MON, TUE, WED, THU, FRI, SAT};
 // MON gets 2 automatically, TUE gets 3, etc. 
+
+// and of course there's always this: an immutable type
+const int year = 2014;
 
 // Import headers with #include
 #include <stdlib.h>
